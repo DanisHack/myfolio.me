@@ -14,9 +14,9 @@ app.config(function($stateProvider, $urlRouterProvider){
       url: "/build",
       templateUrl: "partials/build.html"
     })
-    .state('state2.list', {
-      url: "/list",
-      templateUrl: "partials/state2.list.html",
+    .state('state3', {
+      url: "/th",
+      templateUrl: "partials/customize.html",
       controller: function($scope) {
         $scope.things = ["A", "Set", "Of", "Things"];
       }
